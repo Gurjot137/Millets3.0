@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Khader Millets — Farmer to Family</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand-wrap">
+        <img src="images/logo.png" alt="Khader Millets Logo" class="logo" />
+        <div class="brand-text">
+          <div class="brand">Khader Millets</div>
+          <div class="tagline">Farmer to Family</div>
+        </div>
+      </div>
+
+      <nav class="nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <div class="dropdown">
+          <a href="products.html">Categories ▾</a>
+          <div class="dropdown-content">
+            <a href="products.html#millets">Millets</a>
+            <a href="products.html#oils">Oils</a>
+            <a href="products.html#flours">Flours</a>
+            <a href="products.html#seeds">Seeds</a>
+          </div>
+        </div>
+        <a href="#testimonials">Testimonials</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+
+      <button class="hamburger" aria-label="Open mobile menu">☰</button>
+    </div>
+
+    <div class="mobile-nav" style="display:none">
+      <a href="index.html">Home</a>
+      <a href="products.html">Products</a>
+      <a href="products.html#millets">Millets</a>
+      <a href="#testimonials">Testimonials</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero" id="hero">
+      <!-- optional: add a <video> element named images/hero-loop.mp4 for live video background -->
+      <div class="overlay-layers">
+        <div class="layer gold"></div>
+        <div class="layer soft"></div>
+      </div>
+
+      <div class="glass container" role="region" aria-label="Intro">
+        <h1>Pure Millets — From Our Fields</h1>
+        <p>Nutritious • Sustainable • Calm • Natural</p>
+        <div style="margin-top:16px">
+          <a class="btn primary" href="products.html">View Products</a>
+          <a class="btn ghost" href="#featured">See All Products</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURED -->
+    <section id="featured" class="section headline">
+      <div class="container">
+        <h2>Featured Millets</h2>
+        <p style="color:var(--muted)">Our top 5 — chosen for nutrition and taste. Click a card to see details.</p>
+
+        <div class="feature-grid" style="margin-top:18px">
+          <article class="card" data-title="Foxtail Millet">
+            <img src="images/product1.jpg" alt="Foxtail millet">
+            <h4>Foxtail Millet</h4>
+            <p class="price">₹230 / kg</p>
+            <p class="desc">Light and fluffy grain ideal as a rice substitute. High in fiber and easy to cook.</p>
+          </article>
+
+          <article class="card" data-title="Little Millet">
+            <img src="images/product2.jpg" alt="Little millet">
+            <h4>Little Millet</h4>
+            <p class="price">₹230 / kg</p>
+            <p class="desc">Small-grain millet, versatile for porridges and flatbreads.</p>
+          </article>
+
+          <article class="card" data-title="Kodo Millet">
+            <img src="images/product3.jpg" alt="Kodo millet">
+            <h4>Kodo Millet</h4>
+            <p class="price">₹230 / kg</p>
+            <p class="desc">High fiber and hearty; great for healthy meals.</p>
+          </article>
+
+          <article class="card" data-title="Barnyard Millet">
+            <img src="images/product4.jpg" alt="Barnyard millet">
+            <h4>Barnyard Millet</h4>
+            <p class="price">₹230 / kg</p>
+            <p class="desc">Ideal for fasting recipes and quick-cook dishes.</p>
+          </article>
+
+          <article class="card" data-title="Browntop Millet">
+            <img src="images/product5.jpg" alt="Browntop millet">
+            <h4>Browntop Millet</h4>
+            <p class="price">₹230 / kg</p>
+            <p class="desc">Nutrient-dense and traditionally used in regional dishes.</p>
+          </article>
+        </div>
+        <div style="margin-top:14px"><a class="btn ghost" href="products.html">See All Products</a></div>
+      </div>
+    </section>
+
+    <!-- OTHER PRODUCTS -->
+    <section id="other-products" class="section">
+      <div class="container">
+        <h2>Other Products</h2>
+        <p style="color:var(--muted)">Traditional oils, flours, seeds and tools.</p>
+        <div class="other-grid" style="margin-top:18px">
+          <div class="card"><img src="images/other1.jpg" alt="Safflower oil"><h4>Safflower Oil (Bull Driven)</h4></div>
+          <div class="card"><img src="images/other2.jpg" alt="Palm jaggery"><h4>Palm Jaggery</h4></div>
+          <div class="card"><img src="images/other3.jpg" alt="Millet flour"><h4>Millet Flour</h4></div>
+          <div class="card"><img src="images/other4.jpg" alt="Copper plate"><h4>Copper Plate</h4></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section id="testimonials" class="section headline">
+      <div class="container">
+        <h2>Testimonials</h2>
+        <div class="testimonials" aria-live="polite" style="margin-top:18px">
+          <div class="testimonial"><p>“Fresh grains and fast delivery. Taste is fantastic.”</p><p style="color:var(--muted)">— A. Singh</p></div>
+          <div class="testimonial"><p>“We love the tradition behind these millets.”</p><p style="color:var(--muted)">— R. Kaur</p></div>
+          <div class="testimonial"><p>“Excellent quality and packaging.”</p><p style="color:var(--muted)">— M. Patel</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT CTA -->
+    <section class="section" style="background:linear-gradient(180deg,var(--brown), var(--deep-2));padding:64px 0;">
+      <div class="container" style="display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap">
+        <div style="max-width:640px">
+          <h2 style="margin-top:0">Ready to Order?</h2>
+          <p style="color:var(--muted)">Message us on WhatsApp for quick orders and bulk pricing.</p>
+        </div>
+        <div>
+          <a class="btn primary" href="https://wa.me/919803777077" target="_blank" rel="noopener">Order on WhatsApp</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Modal for product quick view -->
+  <div class="modal" role="dialog" aria-hidden="true">
+    <div class="box" role="document">
+      <button class="close" style="float:right;background:transparent;border:0;color:var(--beige);font-size:20px">✕</button>
+      <img src="images/product1.jpg" alt="product image">
+      <h3>Product Title</h3>
+      <p class="desc">Product description goes here. Click WhatsApp to order or More details to visit the product page.</p>
+      <div style="margin-top:12px">
+        <a class="btn primary" href="https://wa.me/919803777077" target="_blank" rel="noopener">WhatsApp</a>
+        <a class="btn ghost" href="products.html">More details</a>
+      </div>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <img src="images/logo.png" alt="logo" style="width:110px;height:auto"><br>
+        <small style="color:var(--muted)">Farmer to Family</small>
+      </div>
+      <div style="text-align:right;color:var(--muted)">
+        <div>Call / WhatsApp: <a href="tel:+919803777077" style="color:var(--beige);text-decoration:none">+91 98037 77077</a></div>
+      </div>
+    </div>
+  </footer>
+
+  <a class="floating-whatsapp" href="https://wa.me/919803777077" title="Order on WhatsApp">💬</a>
+  <button class="to-top" title="Back to top">↑</button>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
